@@ -1,0 +1,5 @@
+me\sbpro\villagerstudioworldgenerator\Messages.class
+me\sbpro\villagerstudioworldgenerator\generation\VoidChunkGenerator.class
+me\sbpro\villagerstudioworldgenerator\commands\ReloadCommand.class
+me\sbpro\villagerstudioworldgenerator\VillagerStudioWorldGenerator.class
+me\sbpro\villagerstudioworldgenerator\world\WorldManager.class

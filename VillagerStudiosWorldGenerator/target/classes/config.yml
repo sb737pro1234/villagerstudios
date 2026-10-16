@@ -1,0 +1,4 @@
+# Worlds managed by VillagerStudioWorldGenerator.
+# Add a world's name here before creating it with the Multiverse generator.
+worlds:
+  - skyblock

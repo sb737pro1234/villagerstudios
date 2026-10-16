@@ -1,0 +1,20 @@
+name: VillagerStudioWorldGenerator
+version: '1.0'
+main: me.sbpro.villagerstudioworldgenerator.VillagerStudioWorldGenerator
+api-version: '26.2'
+load: STARTUP
+description: A void world generator for Paper and Multiverse-Core.
+author: Villager Studios
+
+commands:
+  vswg:
+    description: VillagerStudioWorldGenerator administration.
+    usage: /vswg reload
+    permission: villagerstudioworldgenerator.admin
+    aliases:
+      - villagerstudiosworldgenerator
+
+permissions:
+  villagerstudioworldgenerator.admin:
+    description: Allows reloading VillagerStudioWorldGenerator configuration.
+    default: op
