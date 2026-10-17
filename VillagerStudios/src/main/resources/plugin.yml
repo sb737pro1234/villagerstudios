@@ -1,0 +1,8 @@
+name: VillagerStudios
+version: '${version}'
+
+main: me.sbpro.villagerstudios.VillagerStudios
+api-version: '26.2'
+load: POSTWORLD
+
+authors: [ SBPro ]
