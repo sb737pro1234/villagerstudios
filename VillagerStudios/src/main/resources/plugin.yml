@@ -6,3 +6,11 @@ api-version: '26.2'
 load: POSTWORLD
 
 authors: [ SBPro ]
+
+commands:
+  staff:
+    description: View the server staff.
+    usage: /staff
+    aliases:
+      - team
+      - moderators

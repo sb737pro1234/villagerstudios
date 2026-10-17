@@ -1,5 +1,7 @@
 package me.sbpro.villagerstudios;
 
+import me.sbpro.villagerstudios.commands.menus.staff.StaffCommand;
+import me.sbpro.villagerstudios.commands.menus.staff.StaffListener;
 import me.sbpro.villagerstudios.listeners.MainListener;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -10,6 +12,9 @@ public final class VillagerStudios extends JavaPlugin {
         getLogger().info("Villager Studios enabling.");
 
         getServer().getPluginManager().registerEvents(new MainListener(), this);
+
+        getCommand("staff").setExecutor(new StaffCommand());
+        getServer().getPluginManager().registerEvents(new StaffListener(), this);
 
         getLogger().info("Villager Studios enabled.");
     }
