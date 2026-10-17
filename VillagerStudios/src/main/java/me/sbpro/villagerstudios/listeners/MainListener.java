@@ -22,8 +22,7 @@ public class MainListener implements Listener {
     }
 
     @EventHandler
-    public void onPlayerAdvancmentDone(PlayerAdvancementDoneEvent event){
-        Player player = event.getPlayer();
+    public void onPlayerAdvancementDone(PlayerAdvancementDoneEvent event){
         event.message(null);
     }
 }

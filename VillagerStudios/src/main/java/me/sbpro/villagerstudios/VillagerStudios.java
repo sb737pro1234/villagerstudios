@@ -11,12 +11,15 @@ public final class VillagerStudios extends JavaPlugin {
 
         getServer().getPluginManager().registerEvents(new MainListener(), this);
 
-
         getLogger().info("Villager Studios enabled.");
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        getLogger().info("Villager Studios disabling.");
+
+
+
+        getLogger().info("Villager Studios disabled.");
     }
 }
