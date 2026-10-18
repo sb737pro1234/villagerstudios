@@ -11,10 +11,13 @@ public final class VillagerStudios extends JavaPlugin {
     public void onEnable() {
         getLogger().info("Villager Studios enabling.");
 
+        // Main Listener
         getServer().getPluginManager().registerEvents(new MainListener(), this);
 
+        // Staff Command
         getCommand("staff").setExecutor(new StaffCommand());
         getServer().getPluginManager().registerEvents(new StaffListener(), this);
+
 
         getLogger().info("Villager Studios enabled.");
     }
