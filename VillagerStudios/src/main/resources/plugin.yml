@@ -14,3 +14,39 @@ commands:
     aliases:
       - team
       - moderators
+      -
+  gamemode:
+    aliases:
+      - gm
+    description: Sets yours or another players gamemode.
+    usage: "/gamemode [GAMEMODE] [PLAYER]"
+
+  gmc:
+    description: Sets Creative mode
+    usage: "/gmc [PLAYER]"
+
+  gms:
+    description: Sets Survival mode
+    usage: "/gms [PLAYER]"
+
+  gma:
+    description: Sets Adventure mode
+    usage: "/gma [PLAYER]"
+
+  gmsp:
+    description: Sets Spectator mode
+    usage: "/gmsp [PLAYER]"
+
+permissions:
+  villagerstudios.gamemode:
+    default: op
+  villagerstudios.gamemode.creative:
+    default: op
+  villagerstudios.gamemode.survival:
+    default: op
+  villagerstudios.gamemode.adventure:
+    default: op
+  villagerstudios.gamemode.spectator:
+    default: op
+  villagerstudios.gamemode.others:
+    default: op
